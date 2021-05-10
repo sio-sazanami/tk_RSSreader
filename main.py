@@ -71,7 +71,7 @@ def newstab(row, tab): #RSSからニュース情報取得
 
     #リストボックス作成・設置
     txt = tk.StringVar(value=newstxt)
-    lb = tk.Listbox(tab, listvariable=txt, height=48, width=192, selectmode="single")
+    lb = tk.Listbox(tab, listvariable=txt, height=32, width=192, selectmode="single")
     lb.grid(column=0, row=1)
 
     #選択したタイトルの記事をブラウザで開く
